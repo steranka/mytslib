@@ -1,2 +1,5 @@
-tsconfig.json
 src
+tsconfig.json
+.idea
+node_modules
+lib

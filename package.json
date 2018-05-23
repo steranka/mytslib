@@ -12,8 +12,19 @@
     "type": "git",
     "url": "git+https://github.com/steranka/mytslib.git"
   },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "\\.ts$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "/src/.*\\.spec\\.ts$"
+  },
+  "types": "lib/index.d.ts",
   "keywords": [],
-  "author": "",
+  "author": "Patrick Steranka <Patrick@Steranka.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/steranka/mytslib/issues"
