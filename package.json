@@ -1,0 +1,28 @@
+{
+  "name": "@pats2265/mytslib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steranka/mytslib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steranka/mytslib/issues"
+  },
+  "homepage": "https://github.com/steranka/mytslib#readme",
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "jest": "^22.4.4",
+    "ts-jest": "^22.4.6",
+    "typescript": "^2.8.3"
+  }
+}
