@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "prepare": "npm run build",
     "build": "tsc",
@@ -22,7 +23,6 @@
     },
     "testRegex": "/src/.*\\.spec\\.ts$"
   },
-  "types": "lib/index.d.ts",
   "keywords": [],
   "author": "Patrick Steranka <Patrick@Steranka.com>",
   "license": "ISC",
